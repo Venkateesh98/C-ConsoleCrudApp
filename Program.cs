@@ -8,6 +8,7 @@ namespace ConsoleCrudApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             SqlConnection sqlConnection;
+            //Connectionstringggg
             string connectionString = @"Data Source=LTIN408556\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=ConsoleDB";
             sqlConnection = new SqlConnection(connectionString);
             sqlConnection.Open();
